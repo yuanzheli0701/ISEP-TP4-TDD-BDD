@@ -18,3 +18,15 @@ On Linux or macOS, use `./mvnw clean test`. Maven and JUnit are downloaded on th
 
 Expected result: **1 test, 1 failure, 0 errors, 0 skipped**. `BUILD FAILURE` is the intended Red result.
 
+## Roman Numerals
+
+The complete Roman Numerals exercise is in [Roman-Numerals](Roman-Numerals), with its own Maven project, Gherkin scenarios and Cucumber step definitions.
+
+From the repository root, run it with:
+
+```powershell
+cd Roman-Numerals
+.\mvnw.cmd clean test
+```
+
+The final version passes all 1000 scenarios. Its history records three Red / Green / Blue cycles using `submit red`, `submit green` and `submit blue` commits.

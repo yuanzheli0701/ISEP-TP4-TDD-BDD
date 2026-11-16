@@ -1,8 +1,13 @@
 package fr.isep.tp4;
 
 public final class RomanNumerals {
+
     public String convert(int number) {
-        // The conversion will be implemented in the Green step.
-        return "";
+        String result = "";
+        for (int i = 0; i < number; i++) {
+            result += "I";
+        }
+        return result;
     }
+
 }
